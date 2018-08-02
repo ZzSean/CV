@@ -1,0 +1,1 @@
+\textsc{2017.9} & Handwritten Digits Recognition(手写数字识别) \\&\footnotesize{接触到的第一个,也是入门的深度学习开发项目. 整个项目使用Python编写, 选取了MNIST数据集, 对最简单的二维图像使用神经网络进行训练, 并通过改变神经网络的结构, 调整其中的参数, 深入理解了神经网络的原理, 并且不断地提高网络识别的准确度.}\\\multicolumn{2}{c}{} \\
