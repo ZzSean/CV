@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2017.9.13)  6 SEP 2018 16:21
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2017.9.13)  6 SEP 2018 16:51
 entering extended mode
 **cv.tex
 ("D:\Git\CV\Professional CV\cv.tex"
@@ -1001,13 +1001,8 @@ Requested font "STXihei/ICU" at 24.88pt
 . Font STXihei does not contain any OpenType `Script' information.
 .................................................
 \g_fontspec_family_STXihei_int=\count196
-Requested font "STXihei/B/ICU" at 24.88pt
- -> C:/WINDOWS/Fonts/STXIHEI.TTF
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STXihei/B (it probably doesn't exist).
-.................................................
+Requested font "é»^^91ä½^^93/ICU" at 24.88pt
+ -> C:/WINDOWS/Fonts/simhei.ttf
 Requested font "STXihei/I/ICU" at 24.88pt
  -> C:/WINDOWS/Fonts/STXIHEI.TTF
 .................................................
@@ -1015,23 +1010,28 @@ Requested font "STXihei/I/ICU" at 24.88pt
 . 
 . Could not resolve font STXihei/I (it probably doesn't exist).
 .................................................
-Requested font "STXihei/BI/ICU" at 24.88pt
- -> C:/WINDOWS/Fonts/STXIHEI.TTF
+Requested font "é»^^91ä½^^93/ICU" at 24.88pt
+ -> C:/WINDOWS/Fonts/simhei.ttf
+Requested font "é»^^91ä½^^93/I/ICU" at 24.88pt
+ -> C:/WINDOWS/Fonts/simhei.ttf
 .................................................
 . fontspec info: "no-font-shape"
 . 
-. Could not resolve font STXihei/BI (it probably doesn't exist).
+. Could not resolve font 黑体/I (it probably doesn't exist).
 .................................................
 .................................................
 . fontspec info: "defining-font"
 . 
 . Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Mapping=tex-text,].
+. [Mapping=tex-text,BoldFont={黑体}].
 . 
 . This font family consists of the following shapes:
 . 
 . * 'normal' with NFSS spec.:
 . <->"STXihei/ICU:mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"黑体/ICU:mapping=tex-text;"
 .................................................
 Requested font "STXihei/ICU:mapping=tex-text;" at 24.88pt
  -> C:/WINDOWS/Fonts/STXIHEI.TTF
@@ -1047,7 +1047,7 @@ x-text;" at 24.88pt
 . fontspec info: "defining-font"
 . 
 . Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Mapping=tex-text,].
+. [Mapping=tex-text,BoldFont={黑体}].
 . 
 . This font family consists of the following shapes:
 .................................................
@@ -1077,7 +1077,7 @@ Requested font "STXihei/ICU" at 14.4pt
 . fontspec info: "defining-font"
 . 
 . Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Mapping=tex-text,].
+. [Mapping=tex-text,BoldFont={黑体}].
 . 
 . This font family consists of the following shapes:
 .................................................
@@ -1130,7 +1130,7 @@ Requested font "STXihei/ICU" at 10.95pt
 . fontspec info: "defining-font"
 . 
 . Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Mapping=tex-text,].
+. [Mapping=tex-text,BoldFont={黑体}].
 . 
 . This font family consists of the following shapes:
 .................................................
@@ -1145,7 +1145,7 @@ Requested font "STXihei/ICU:mapping=tex-text;" at 10.95pt
 . fontspec info: "defining-font"
 . 
 . Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Mapping=tex-text,].
+. [Mapping=tex-text,BoldFont={黑体}].
 . 
 . This font family consists of the following shapes:
 .................................................
@@ -1161,20 +1161,14 @@ t;" at 10.95pt
 . fontspec info: "defining-font"
 . 
 . Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Mapping=tex-text,].
+. [Mapping=tex-text,BoldFont={黑体}].
 . 
 . This font family consists of the following shapes:
 .................................................
-
-
-LaTeX Font Warning: Font shape `EU1/STXihei(0)/bx/n' undefined
-(Font)              using `EU1/STXihei(0)/m/n' instead on input line 105.
-
-
-Overfull \hbox (7.86266pt too wide) in paragraph at lines 104--120
-[][] 
- []
-
+Requested font "é»^^91ä½^^93/ICU:mapping=tex-text;" at 10.95pt
+ -> C:/WINDOWS/Fonts/simhei.ttf
+Requested font "é»^^91ä½^^93/ICU:mapping=tex-text;" at 10.95pt
+ -> C:/WINDOWS/Fonts/simhei.ttf
 Requested font "[Fontin.otf]/ICU:script=latn;language=DFLT;mapping=tex-text;" a
 t 9.0pt
  -> D:/Git/CV/Professional CV/Fontin.otf
@@ -1191,13 +1185,13 @@ Requested font "STXihei/ICU" at 9.0pt
 . fontspec info: "defining-font"
 . 
 . Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Mapping=tex-text,].
+. [Mapping=tex-text,BoldFont={黑体}].
 . 
 . This font family consists of the following shapes:
 .................................................
 Requested font "STXihei/ICU:mapping=tex-text;" at 9.0pt
  -> C:/WINDOWS/Fonts/STXIHEI.TTF
-[1
+ [1
 
 ]
 Requested font "[Fontin-Italic.otf]/ICU:script=latn;language=DFLT;mapping=tex-t
@@ -1212,14 +1206,14 @@ ext;" at 10.95pt
 . fontspec info: "defining-font"
 . 
 . Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Mapping=tex-text,].
+. [Mapping=tex-text,BoldFont={黑体}].
 . 
 . This font family consists of the following shapes:
 .................................................
 
 
 LaTeX Font Warning: Font shape `EU1/STXihei(0)/m/it' undefined
-(Font)              using `EU1/STXihei(0)/m/n' instead on input line 144.
+(Font)              using `EU1/STXihei(0)/m/n' instead on input line 143.
 
 Requested font "[Fontin.otf]/ICU" at 10.95pt
  -> D:/Git/CV/Professional CV/Fontin.otf
@@ -1239,23 +1233,23 @@ Requested font "[Fontin-SmallCaps.otf]/ICU" at 10.95pt
 . * 'small caps' with NFSS spec.:
 . <->"[Fontin-SmallCaps.otf]/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
  ("D:\Git\CV\Professional CV\cv.aux")
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 179.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 178.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 178.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20565 strings out of 430478
- 390979 string characters out of 3191352
- 459836 words of memory out of 3000000
- 23477 multiletter control sequences out of 15000+200000
- 6667 words of font info for 59 fonts, out of 3000000 for 9000
+ 20568 strings out of 430478
+ 391038 string characters out of 3191352
+ 459892 words of memory out of 3000000
+ 23478 multiletter control sequences out of 15000+200000
+ 6683 words of font info for 61 fonts, out of 3000000 for 9000
  15 hyphenation exceptions out of 8191
  44i,9n,47p,623b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
 
