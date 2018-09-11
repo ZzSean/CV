@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2017.9.13)  10 SEP 2018 19:01
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2017.9.13)  11 SEP 2018 18:05
 entering extended mode
 **cv-eng.tex
 ("D:\Git\CV\Professional CV\cv-eng.tex"
@@ -1106,6 +1106,9 @@ Overfull \hbox (9.36285pt too wide) in paragraph at lines 106--122
 [][] 
  []
 
+Requested font "[Fontin.otf]/ICU:script=latn;language=DFLT;mapping=tex-text;" a
+t 9.0pt
+ -> D:/Git/CV/Professional CV/Fontin.otf
 Requested font "STXihei" at 14.4pt
  -> C:/WINDOWS/Fonts/STXIHEI.TTF
 Requested font "STXihei/ICU" at 14.4pt
@@ -1125,28 +1128,6 @@ Requested font "STXihei/ICU" at 14.4pt
 .................................................
 Requested font "STXihei/ICU:mapping=tex-text;" at 14.4pt
  -> C:/WINDOWS/Fonts/STXIHEI.TTF
-Requested font "STXihei" at 10.95pt
- -> C:/WINDOWS/Fonts/STXIHEI.TTF
-Requested font "STXihei/ICU" at 10.95pt
- -> C:/WINDOWS/Fonts/STXIHEI.TTF
-.................................................
-. fontspec info: "no-scripts"
-. 
-. Font STXihei does not contain any OpenType `Script' information.
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STXihei(0)' created for font 'STXihei' with options
-. [Mapping=tex-text,BoldFont={黑体}].
-. 
-. This font family consists of the following shapes:
-.................................................
-Requested font "STXihei/ICU:mapping=tex-text;" at 10.95pt
- -> C:/WINDOWS/Fonts/STXIHEI.TTF
-Requested font "[Fontin.otf]/ICU:script=latn;language=DFLT;mapping=tex-text;" a
-t 9.0pt
- -> D:/Git/CV/Professional CV/Fontin.otf
 Requested font "STXihei" at 9.0pt
  -> C:/WINDOWS/Fonts/STXIHEI.TTF
 Requested font "STXihei/ICU" at 9.0pt
@@ -1165,6 +1146,25 @@ Requested font "STXihei/ICU" at 9.0pt
 . This font family consists of the following shapes:
 .................................................
 Requested font "STXihei/ICU:mapping=tex-text;" at 9.0pt
+ -> C:/WINDOWS/Fonts/STXIHEI.TTF
+Requested font "STXihei" at 10.95pt
+ -> C:/WINDOWS/Fonts/STXIHEI.TTF
+Requested font "STXihei/ICU" at 10.95pt
+ -> C:/WINDOWS/Fonts/STXIHEI.TTF
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font STXihei does not contain any OpenType `Script' information.
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'STXihei(0)' created for font 'STXihei' with options
+. [Mapping=tex-text,BoldFont={黑体}].
+. 
+. This font family consists of the following shapes:
+.................................................
+Requested font "STXihei/ICU:mapping=tex-text;" at 10.95pt
  -> C:/WINDOWS/Fonts/STXIHEI.TTF
 [1
 
@@ -1222,7 +1222,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  20558 strings out of 430478
  390875 string characters out of 3191352
- 454896 words of memory out of 3000000
+ 452896 words of memory out of 3000000
  23469 multiletter control sequences out of 15000+200000
  6675 words of font info for 60 fonts, out of 3000000 for 9000
  15 hyphenation exceptions out of 8191
