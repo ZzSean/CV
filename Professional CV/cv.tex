@@ -14,6 +14,7 @@
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{wrapfig}
+\usepackage{multirow}
 
 %\geometry{papersize={20cm,15cm}}
 \geometry{top=1cm,bottom=1cm}
@@ -34,7 +35,7 @@ BoldFont = Fontin-Bold.otf,
 ItalicFont = Fontin-Italic.otf
 ]
 {Fontin.otf}
-\setCJKmainfont[BoldFont={黑体}]{STXihei} %设置 CJK 主字体为 SimSun （宋体）
+\setCJKmainfont[BoldFont={华文黑体}]{黑体-简} %设置 CJK 主字体为 SimSun （宋体）
 
 %%%
 
@@ -80,21 +81,21 @@ ItalicFont = Fontin-Italic.otf
 \par{
 		\begin{center}{\Huge 张 \textsc{政}
 	}\end{center}
+
 \par}
 
 %--------------------SECTIONS-----------------------------------
 %Section: Personal Data
-\begin{wrapfigure}{r}{0.19\textwidth} %this figure will be at the right
-    \includegraphics[width=0.19\textwidth]{pic.jpg}
-\end{wrapfigure}
 \section{基本信息}
-\begin{tabular}{rl}
-  \textsc{生日:} & 1993.12.03 \\
-  \textsc{籍贯:} & 河南省鹤壁市 \\
-  \textsc{地址:}   &  上海市闵行区东川路800号上海交通大学\\
-  \textsc{手机:}     & 18818272991\\
-  \textsc{邮箱:}     & \href{mailto:18818272991@163.com}{18818272991@163.com}\\
-  \textsc{博客:}     & \href{https://zzsean.github.io}{https://zzsean.github.io}\\
+
+\begin{tabular}{rlrr}
+  生日:& 1993.12.03 & \quad\quad\quad\quad\quad\quad\quad\quad & \multirow{6}{*}{\includegraphics[width=0.19\textwidth]{pic.jpg}}\\
+  籍贯:& 河南省鹤壁市 \\
+  地址:& 上海市闵行区东川路800号上海交通大学\\
+  手机:& 18818272991\\
+  邮箱:& \href{mailto:18818272991@163.com}{18818272991@163.com}\\
+  博客:& \href{https://zzsean.github.io}{https://zzsean.github.io}\\ 
+  \\
 \end{tabular}
 
 
@@ -116,6 +117,7 @@ ItalicFont = Fontin-Italic.otf
 & 学习使用Tensorflow,PyTorch及Keras等开源框架, 学习训练中调参和\\
 & 优化的思路和方法\\
 \end{tabular}
+
 
 %Section: Work Experience at the top
 \section{实习经历}
