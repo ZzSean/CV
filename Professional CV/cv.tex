@@ -104,10 +104,10 @@
 %Section: Education
 \section{学习经历}
 \begin{tabular}{rl}
-\textsc{2012.9} & \bf{本科, 上海交通大学, 电子信息与电气工程学院, 测控技术与仪器专业}\\
+\textsc{2012.9} & 本科, 上海交通大学, 电子信息与电气工程学院, 测控技术与仪器专业\\
 & 以专业第一的成绩得到研究生保送资格\\
 & 主修课程: 模拟电路, 数字电路, 数据结构, c语言程序设计, python程序设计\\&\\
-\textsc{2016.9} & \bf{硕士, 上海交通大学, 电子信息与电气工程学院, 测控技术与仪器专业}\\
+\textsc{2016.9} & 硕士, 上海交通大学, 电子信息与电气工程学院, 测控技术与仪器专业\\
 & 主修课程: 高级数字信号处理, 微弱信号检测, 视觉检测\\&\\
 %\textsc{2017.10} & \bf{Coursera Machine Learning课程}\\
 %& 学习并掌握了传统机器学习的相关原理和算法，如决策树, KNN, LR, SVM\\
@@ -123,16 +123,17 @@
 %Section: Work Experience at the top
 \section{工作经历}
 \begin{tabular}{r|p{11cm}}
+ \textsc{2019.4 - } & 上海寒武纪信息科技有限公司, 算法工程组, 算法工程师 \\&\footnotesize{1. 基于寒武纪 MLU 硬件平台及编译器，使用 BANGC 语言开发深度学习网络中的常用算子，并充分利用异构计算特点、流水设计等，对算子性能进行优化。}\\&\footnotesize{完成的算子主要包括：Faster-RCNN 中的 ROIPool 和 image\_detect；MaskRCNN 中的 proposal\_fpn；GRU；以及通用 conv 的小 c 优化。}\\&\footnotesize{2. 同时作为某模块在上海的对接人，负责过所在团队的整体任务交付，并改善了团队在 code review 方面的行为规则，使开发的效率和质量得到了提高。}\\\multicolumn{2}{c}{} \\
  \textsc{2018.6 - 9} & 华为上海研究所, 海思笛卡尔 GPU 架构组, 算法工程师（实习） \\&\footnotesize{对已有模型进行测试实验并分析结果, 结合GPU内的相关算法与计算机体系结构等相关知识, 提出项目中相关函数的优化方案; 负责编写了实现工作流程自动化的脚本; 实现远程分布式编译; 熟悉并学习了GPU架构的相关知识, 了解主流的GPU架构及其特点; 学习并掌握OpenGL ES的使用.}\\\multicolumn{2}{c}{} \\
 \end{tabular}
 
 %Section: Work Experience at the top
 %\section{竞赛\&开源项目}
 %\begin{tabular}{r|p{11cm}}
-%\textsc{2018.6 - 8} & Kaggle: Google AI Open Images - Object Detection Track (top20\%)\\&\footnotesize{对图片进行目标检测识别, 最后提交的结果包含: 每张图片中所有识别出的物体的类别名称, 置信度和框的位置. 样本集来自Google Open Images, 样本量为170万左右, 600个类别, 平均每张图片中有7个物体. 实现方法为: 使用PyTorch实现YOLOv3的基本模型, 对原始网络的输出表达进行修改以适应比赛要求, 训练样本并适当地调整优化参数.}\\\multicolumn{2}{c}{} \\
-%\textsc{2018.2} & Generative Adversarial Networks(GAN, 生成对抗网络)\\&\footnotesize{GAN可以用来生成质量很高的图片. 根据论文中所描述的原理, 实现GAN的根本就是生成器与判别器之间的博弈.在这个项目中使用了Tensorflow来完成神经网络框架的搭建, 由于MNIST数据集中的图像特征较为简单, 因此尝试使用了仅含全连接层和加入卷积层的不同神经网络结构实现生成器和判别器, 并尝试了不同的激活函数(如Leaky Relu和Relu)以及Batchnorm的使用, 比较不同网络结构的生成图片的质量.}\\\multicolumn{2}{c}{} \\
-%\textsc{2017.12} & Image Caption and Description(图像内容获取和描述)\\{- 2018.1}&\footnotesize{该项目数据集来自微软的COCO数据集, 训练的过程分为两步: 编码和译码. 整个神经网络框架使用Tensorflow搭建, 编码的过程是通过CNN(如 VGG-19)对图像进行特征提取并作为序列模型RNN/LSTM的隐藏层输入; 译码的过程是通过序列模型, 使用词嵌入训练生成对图片内容的文字描述.  }\\\multicolumn{2}{c}{} \\
-%\textsc{2017.11-12} & Style Transfer(图像风格迁移)\\&\footnotesize{该项目使用Tensorflow搭建神经网络. 实现图片风格转换需要计算两个代价函数: 内容代价函数使用原始图片和生成图片经过CNN网络(如VGG-19)后的高层特征提取进行最小二乘计算而得; 风格代价函数与之相似但是使用的是特征提取后的Gram矩阵进行计算. 预训练风格生成网络可以加速图片转换的速度, 便于进行大量图片单一风格的转换. }
+%\textsc{2018.6 - 8} & Kaggle: Google AI Open Images - Object Detection Track (top20\%)\\&\footnotesize{对图片进行目标检测识别, 样本集来自Google Open Images, 样本量为170万左右, 600个类别, 平均每张图片中有7个物体. 实现方法为: 使用PyTorch实现YOLOv3的基本模型, 对原始网络的输出表达进行修改以适应比赛要求, 训练样本并适当地调整优化参数.}\\\multicolumn{2}{c}{} \\
+%%\textsc{2018.2} & Generative Adversarial Networks(GAN, 生成对抗网络)\\&\footnotesize{GAN可以用来生成质量很高的图片. 根据论文中所描述的原理, 实现GAN的根本就是生成器与判别器之间的博弈.在这个项目中使用了Tensorflow来完成神经网络框架的搭建, 由于MNIST数据集中的图像特征较为简单, 因此尝试使用了仅含全连接层和加入卷积层的不同神经网络结构实现生成器和判别器, 并尝试了不同的激活函数(如Leaky Relu和Relu)以及Batchnorm的使用, 比较不同网络结构的生成图片的质量.}\\\multicolumn{2}{c}{} \\
+%%\textsc{2017.12} & Image Caption and Description(图像内容获取和描述)\\{- 2018.1}&\footnotesize{该项目数据集来自微软的COCO数据集, 训练的过程分为两步: 编码和译码. 整个神经网络框架使用Tensorflow搭建, 编码的过程是通过CNN(如 VGG-19)对图像进行特征提取并作为序列模型RNN/LSTM的隐藏层输入; 译码的过程是通过序列模型, 使用词嵌入训练生成对图片内容的文字描述.  }\\\multicolumn{2}{c}{} \\
+%%\textsc{2017.11-12} & Style Transfer(图像风格迁移)\\&\footnotesize{该项目使用Tensorflow搭建神经网络. 实现图片风格转换需要计算两个代价函数: 内容代价函数使用原始图片和生成图片经过CNN网络(如VGG-19)后的高层特征提取进行最小二乘计算而得; 风格代价函数与之相似但是使用的是特征提取后的Gram矩阵进行计算. 预训练风格生成网络可以加速图片转换的速度, 便于进行大量图片单一风格的转换. }
 %\end{tabular}
 
 %Section: Work Experience at the top
@@ -149,6 +150,14 @@
  \textsc{2016.1 - 6} & 主动降噪耳机控制系统 \\&\footnotesize{此研究课题通过主动噪声控制, 利用LMS(最小均方算法)自适应算法, 以Labview为基础搭建一个主动降噪耳机系统, 通过MATLAB进行离线数据验证, 成功实现耳机内的主动降噪.}\\\multicolumn{2}{c}{} \\
 \end{tabular}
 
+%Section: Paper
+\section{论文发表}
+\begin{tabular}{r|p{11cm}}
+\textsc{国际会议B类} & The System for Root Canal Length Measurement Based on Multifrequency Impedance Method，第一作者。\\\multicolumn{2}{c}{}\\
+\textsc{SCI} & Multifrequency Impedance Method Based on Neural Network for Root Canal Length Measurement，第二作者。\\\multicolumn{2}{c}{}\\
+\textsc{专利} & 用于预测根管长度的方法及数据采集系统，已授权。\\\multicolumn{2}{c}{}\\
+\end{tabular}
+
 %Section: Scholarships and additional info
 \section{获奖经历\&证书}
 \begin{tabular}{rl}
@@ -156,21 +165,20 @@
 & "E + H" 专项奖学金\\
  \textsc{2015} & 上海交通大学优秀奖学金B等\\
  \textsc{2016} & 上海交通大学2016届优秀毕业生\\
-&  上海交通大学研究生一等学业奖学金\\
-
+&  上海交通大学研究生一等学业奖学金\\\multicolumn{2}{c}{}\\
 \end{tabular}
 
 %Section: Languages
 \section{语言能力}
 \begin{tabular}{rl}
-英语: CET6 : 535, 可以流利的阅读英文文献并用英语交流\\
+英语: CET6 : 535, 可以流利的阅读英文文献并用英语交流\\\multicolumn{2}{c}{}\\
 \end{tabular}
 
 \section{计算机能力}
 \begin{tabular}{rl}
  编程语言:& C\&C++, ~~Python, ~~MySQL \\
  编程工具:& MATLAB, ~~Labview, ~~{\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
- 其他: & Git, ~~TensorfFow, ~~PyTorch, ~~Office工具\\
+ 其他: & Git, ~~TensorfFow, ~~PyTorch, ~~Office工具\\\multicolumn{2}{c}{}\\
 \end{tabular}
 
 \section{兴趣爱好}
